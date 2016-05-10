@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".atys.LoginActivity"></activity>
+        <activity android:name=".atys.TimeLineActivity"></activity>
+        <activity android:name=".atys.MessageActivity"></activity>
+        <activity android:name=".atys.PubMessageActivity"></activity>
     </application>
 
 </manifest>
