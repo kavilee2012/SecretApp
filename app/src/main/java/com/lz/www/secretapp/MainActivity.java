@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.lz.www.secretapp.atys.LoginActivity;
 import com.lz.www.secretapp.atys.TimeLineActivity;
+import com.lz.www.secretapp.data.MyContact;
 
 public class MainActivity extends AppCompatActivity {
 

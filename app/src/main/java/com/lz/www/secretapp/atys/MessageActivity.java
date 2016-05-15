@@ -8,9 +8,20 @@ import android.os.Bundle;
  * Created by Administrator on 2016-05-10.
  */
 public class MessageActivity extends ListActivity {
+
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+    }
+
+    public static interface SuccessCallback {
+        void onSuccess(String result);
+    }
+
+    public static interface FailCallback {
+        void onFail();
     }
 }
