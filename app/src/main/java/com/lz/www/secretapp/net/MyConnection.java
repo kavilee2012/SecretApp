@@ -38,6 +38,8 @@ public class MyConnection {
                             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(uc.getOutputStream(), Config.CHARSET));
                             bw.write(pasStr.toString());
                             break;
+                        case GET:
+                            break;
                         default:
                             uc = new URL(url + "?" + pasStr.toString()).openConnection();
                             break;
